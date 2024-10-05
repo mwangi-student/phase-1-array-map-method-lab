@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 // List of words that should always be in uppercase
-const specialWords = ["API", "NaN", "OO", "HTML", "JSON"];
+const specialWords = ["API", "NaN", "OO", "HTML", "JSONP"];
 
 const titleCased = () => {
   return tutorials.map((tutorial) => {
